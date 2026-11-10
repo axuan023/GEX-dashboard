@@ -297,7 +297,7 @@ fig.update_layout(
     yaxis_title="GEX ($ millions per 1% move)"
 )
 
-st.plotly_chart(style_chart(fig), use_container_width=True)
+st.plotly_chart(style_chart(fig), width="stretch")
 
 
 # Chart 2: GEX by expiry
@@ -321,7 +321,7 @@ fig2.update_layout(
 
 fig2.update_xaxes(type="category")
 
-st.plotly_chart(style_chart(fig2), use_container_width=True)
+st.plotly_chart(style_chart(fig2), width="stretch")
 
 
 # Data information
